@@ -14,6 +14,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: 'owasp/zap2docker-stable'
-          target: 'https://www.ubora.io/'
+          target: 'https://d3ohjjp5dewazn.cloudfront.net/'
           rules_file_name: '.zap/rules.tsv'
           cmd_options: '-a'
